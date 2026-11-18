@@ -27,6 +27,18 @@ along with Moodle. If not, see <https://www.gnu.org/licenses/>.
 
 Restrict access to Moodle activities and course sections based on certificates a learner has received. Use an issued certificate as an entry requirement, or offer a replacement certificate only to learners who have yet to receive the previous one.
 
+<details>
+<summary>Screenshots</summary>
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://raw.githubusercontent.com/108design/moodle-availability_certificateissued/main/docs/screenshots/01-activity-restriction.jpg"><img src="https://raw.githubusercontent.com/108design/moodle-availability_certificateissued/main/docs/screenshots/01-activity-restriction.jpg" alt="Certificate restriction in the activity settings" width="100%"></a><br><strong>Certificate restriction in the activity settings</strong><br>Choose a certificate template and set the scope, expiry and archive filters.</td>
+<td width="50%" valign="top"><a href="https://raw.githubusercontent.com/108design/moodle-availability_certificateissued/main/docs/screenshots/02-contextual-help.jpg"><img src="https://raw.githubusercontent.com/108design/moodle-availability_certificateissued/main/docs/screenshots/02-contextual-help.jpg" alt="Contextual help in the activity editor" width="100%"></a><br><strong>Contextual help in the activity editor</strong><br>Open help on certificate selection, issue status, replacement and restore.</td>
+</tr>
+</table>
+
+</details>
+
 ## Requirements
 
 - Moodle LMS 4.5 through 5.3 with restricted access enabled.
