@@ -30,6 +30,7 @@
 "/docs/screenshots" export-ignore -export-subst
 "/docs/screenshots/01-activity-restriction.jpg" export-ignore -export-subst
 "/docs/screenshots/02-contextual-help.jpg" export-ignore -export-subst
+"/docs/screenshots/03-activity-picker.jpg" export-ignore -export-subst
 "/lang" -export-ignore -export-subst
 "/lang/de" -export-ignore -export-subst
 "/lang/de/availability_certificateissued.php" -export-ignore -export-subst
@@ -41,7 +42,9 @@
 "/release-guard-policy.json" -export-ignore -export-subst
 "/release-manifest.json" -export-ignore -export-subst
 "/release-signature.txt" -export-ignore -export-subst
+"/styles" -export-ignore -export-subst
 "/styles.css" -export-ignore -export-subst
+"/styles/context_help.css" -export-ignore -export-subst
 "/templates" -export-ignore -export-subst
 "/templates/help_icon.mustache" -export-ignore -export-subst
 "/tests" -export-ignore -export-subst
