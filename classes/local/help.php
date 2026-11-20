@@ -54,7 +54,7 @@ final class help {
         }
         self::$prepared = true;
         $PAGE->add_body_class('availability-certificateissued-admin-help-page');
-        $PAGE->requires->css(new \moodle_url('/availability/condition/certificateissued/styles.css',
+        $PAGE->requires->css(new \moodle_url('/availability/condition/certificateissued/styles/context_help.css',
             ['rev' => get_config('availability_certificateissued', 'version')]));
         $PAGE->requires->js_call_amd('availability_certificateissued/help', 'init', [[
             'topic' => optional_param('certissuedhelp', '', PARAM_ALPHA),
