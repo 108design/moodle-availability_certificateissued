@@ -20,6 +20,7 @@
 "/classes/local/help.php" -export-ignore -export-subst
 "/classes/local/selection.php" -export-ignore -export-subst
 "/classes/local/update_guard.php" -export-ignore -export-subst
+"/classes/local/update_notice.php" -export-ignore -export-subst
 "/classes/privacy" -export-ignore -export-subst
 "/classes/privacy/provider.php" -export-ignore -export-subst
 "/db" -export-ignore -export-subst
@@ -41,6 +42,7 @@
 "/pix/adminbrand.svg" -export-ignore -export-subst
 "/release-guard-policy.json" -export-ignore -export-subst
 "/release-manifest.json" -export-ignore -export-subst
+"/release-metadata.php" -export-ignore -export-subst
 "/release-signature.txt" -export-ignore -export-subst
 "/styles" -export-ignore -export-subst
 "/styles.css" -export-ignore -export-subst
@@ -56,6 +58,7 @@
 "/tests/help_test.php" -export-ignore -export-subst
 "/tests/structure_test.php" -export-ignore -export-subst
 "/update-guard.php" -export-ignore -export-subst
+"/update-notice.php" -export-ignore -export-subst
 "/version.php" -export-ignore -export-subst
 "/yui" -export-ignore -export-subst
 "/yui/build" -export-ignore -export-subst
