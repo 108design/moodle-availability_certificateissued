@@ -35,9 +35,6 @@ Restrict access to Moodle activities and course sections based on certificates a
 <td width="50%" valign="top"><a href="https://raw.githubusercontent.com/108design/moodle-availability_certificateissued/main/docs/screenshots/01-activity-restriction.jpg"><img src="https://raw.githubusercontent.com/108design/moodle-availability_certificateissued/main/docs/screenshots/01-activity-restriction.jpg" alt="Certificate restriction in the activity settings" width="100%"></a><br><strong>Certificate restriction in the activity settings</strong><br>Choose a certificate template and set the scope, expiry and archive filters.</td>
 <td width="50%" valign="top"><a href="https://raw.githubusercontent.com/108design/moodle-availability_certificateissued/main/docs/screenshots/02-contextual-help.jpg"><img src="https://raw.githubusercontent.com/108design/moodle-availability_certificateissued/main/docs/screenshots/02-contextual-help.jpg" alt="Contextual help in the activity editor" width="100%"></a><br><strong>Contextual help in the activity editor</strong><br>Open help on certificate selection, issue status, replacement and restore.</td>
 </tr>
-<tr>
-<td colspan="2"><a href="https://raw.githubusercontent.com/108design/moodle-availability_certificateissued/main/docs/screenshots/03-activity-picker.jpg"><img src="https://raw.githubusercontent.com/108design/moodle-availability_certificateissued/main/docs/screenshots/03-activity-picker.jpg" alt="Copy template from activity in Moodle" width="100%"></a><br><strong>Copy a template from a course certificate activity</strong><br>Choose an eligible activity to copy its template and set the scope to the current course.</td>
-</tr>
 </table>
 
 </details>
@@ -45,8 +42,8 @@ Restrict access to Moodle activities and course sections based on certificates a
 ## Requirements
 
 - Moodle LMS 4.5 through 5.3 with restricted access enabled.
-- [Workplace certificate manager](https://marketplace.moodle.com/plugins/tool_certificate) (`tool_certificate`, build 2022112800 or newer). Select an upstream release for your Moodle branch. For 5.3, use Certificate manager 5.0.12 or later with 5.3 support.
-- Optional [Course certificate](https://marketplace.moodle.com/plugins/mod_coursecertificate) (`mod_coursecertificate`) for the activity picker. Use an upstream release that supports your Moodle branch. The picker appears when a certificate activity in the course uses a template you are allowed to select.
+- [Workplace certificate manager](https://marketplace.moodle.com/plugins/tool_certificate) (`tool_certificate`), in a version compatible with your Moodle installation.
+- Optional [Course certificate](https://marketplace.moodle.com/plugins/mod_coursecertificate) (`mod_coursecertificate`) for choosing a template from a course activity. Use a release that supports your Moodle version.
 
 ## Install
 
