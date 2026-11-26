@@ -91,3 +91,5 @@ The plugin saves settings in Moodle’s availability configuration and reads exi
 Available free of charge under the terms of the applicable license.
 
 See the [GNU General Public License, version 3 or later](LICENSE.md).
+
+The 108design name and logo are subject to the [name and logo notice](TRADEMARKS.md).
