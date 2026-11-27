@@ -52,8 +52,6 @@ Restrict access to Moodle activities and course sections based on certificates a
 
 Install the release ZIP through **Site administration → Plugins → Install plugins** and complete the Moodle upgrade. For a manual installation, place the plugin in `availability/condition/certificateissued` within Moodle’s public code directory and complete the upgrade.
 
-If you are upgrading from Certificate Issued 1.0.x, install the signed normal release ZIP first. This retains the selected templates and saved restrictions. You can use signed Moodle Marketplace updates from the new release onward.
-
 ## Add an issued certificate restriction
 
 In an activity or course section, choose **Restrict access → Add restriction → Issued certificate**. Select a certificate template and configure these settings.
