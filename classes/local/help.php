@@ -131,7 +131,9 @@ final class help {
             'src' => $OUTPUT->image_url('adminbrand', 'availability_certificateissued'),
             'alt' => '', 'width' => 25, 'height' => 24]), 'availability-certificateissued-help-brand',
             ['role' => 'img', 'aria-label' => get_string('title', 'availability_certificateissued')]);
-        $close = \html_writer::tag('button', '&#215;', ['type' => 'button',
+        $close = \html_writer::tag('button', '<svg class="design108-panel-close-icon" viewBox="0 0 16 16"'
+            . ' width="16" height="16" aria-hidden="true" focusable="false"'
+            . ' fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 3l10 10M13 3L3 13"/></svg>', ['type' => 'button',
             'class' => 'btn btn-secondary btn-sm availability-certificateissued-help-close',
             'data-certissued-help-close' => '', 'aria-label' => get_string('closebuttontitle', 'moodle')]);
         $header = \html_writer::tag('header', \html_writer::div($choice,

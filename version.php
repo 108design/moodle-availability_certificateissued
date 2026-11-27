@@ -23,9 +23,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'availability_certificateissued';
-$plugin->version = 2026112600;
+$plugin->version = 2026112700;
 $plugin->requires = 2024100700; // Moodle 4.5.
 $plugin->maturity = MATURITY_STABLE;
-$plugin->release = '1.3.0';
+$plugin->release = '1.4.0';
 $plugin->dependencies = ['tool_certificate' => 2022112800];
 $plugin->supported = [405, 503];
